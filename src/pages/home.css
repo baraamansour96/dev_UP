@@ -426,3 +426,113 @@
     .vacation-form button:hover {
     background-color:#59ca42;;
     }
+    .note-page {
+        position: relative;
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        font-family: Lato;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .search-bar {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+      }
+      
+      .search-bar input {
+        padding: 10px 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .background-images {
+        width: 800px;
+        height: 400px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+      
+      .note-list {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #fff;
+      }
+      
+      .note-item {
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .note-actions button {
+        margin-left: 10px;
+      }
+      
+      .add-note-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: 
+        #c1e4b3cb;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      .add-note-button:hover {
+        background-color: #59ca42;
+      }
+      
+      .note-modal-overlay {
+        
+        top: 0;
+        left: 00 px;
+        width: 500px;
+        height: 100%;
+      
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+      }
+      
+      .note-modal {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      
+      .modal-buttons button {
+        margin-right: 10px;
+      }
+      
+      textarea {
+        width: 400px;
+        min-height: 100px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        padding-top: 10px;
+        background-color: #c1e4b3cb;;
+        color:black;
+        border: none;
+        border-radius: 9px;
+        cursor: pointer;
+        font-size: 12px;
+      font-family: Lato;
+      }
+      
+      button:hover {
+        background-color: #59ca42;
+      }
