@@ -372,3 +372,57 @@
     font-size: 16px;
     
   }
+  .vacation-form {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #d2f9d3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Lato;
+    font-size: 20px;
+    }
+    
+    .vacation-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .vacation-form form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .vacation-form label {
+    margin-bottom: 15px;
+  
+    }
+    
+    .vacation-form input,
+    .vacation-form select,
+    .vacation-form textarea
+
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    }
+    
+    .vacation-form button {
+      margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    color: #0f0e0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+    .vacation-form button:hover {
+    background-color:#59ca42;;
+    }
