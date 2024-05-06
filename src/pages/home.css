@@ -536,3 +536,132 @@
       button:hover {
         background-color: #59ca42;
       }
+      .rooster-page {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgb(213, 247, 210);
+        /*rgb(213, 250, 213);*/
+        color: #333;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: Lato;
+        color:#49913a; 
+        font-weight: 800;
+       
+      }
+      
+      .calendar {
+        text-align: center;
+       
+      
+        
+      }
+      
+      .week-navigation {
+       display: flex;
+       align-items: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+      .week-navigation button  {
+        margin-right: 5px; /* Ruimte tussen de knoppen */
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #59ca42;
+        font-size: 20px;
+      }
+      
+      .date-picker {
+        margin-bottom: 20px;
+      }
+      
+      .form-container button {
+        padding: 8px 20px;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(227, 236, 227);
+        color: #141010;
+        cursor: pointer;
+      }
+      .form-container button:hover {
+        background-color: #59ca42;
+      
+      }
+      
+      .new-appointment-form  {
+        border: 1px solid#59ca42; ;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+       
+      }
+      .new-appointment-form button {
+        margin-right: 10px; /* Voeg de gewenste afstand toe tussen de knoppen */
+        font-size: 15px;
+      }
+      
+      
+      .new-appointment-form input[type="text"],
+      .new-appointment-form input[type="date"],
+      .new-appointment-form input[type="time"] {
+        width: 100%; /* Maak de input-elementen volledige breedte */
+        padding: 8px; /* Voeg wat ruimte binnenin de input-elementen toe */
+        margin-bottom: 10px; /* Voeg wat afstand toe onderaan elk input-element */
+      
+       
+      }
+      
+      .appointments {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px; 
+      
+      }
+      
+      .appointment {
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .appointment-description {
+        flex-grow: 1;
+        color: #0056b3;
+      }
+      
+      .appointment button {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+       
+      }
+      
+      .appointment button.edit-button {
+        background-color: #ffc107;
+        color: #212529;
+        margin-right: 5px;
+      }
+      
+      .appointment button.delete-button {
+        background-color: #dc3545;
+        color: white;
+      }
+      .background-imag {
+       
+        width: 800px; 
+        height: 300px; /* Voeg de gewenste hoogte toe */
+      }
